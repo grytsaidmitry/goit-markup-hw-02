@@ -1,0 +1,252 @@
+/*#region Global */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #FFFFFF;
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* button */
+button {
+    cursor: pointer;
+}
+
+/* Lists */
+ul { list-style: none; }
+
+/* Links */
+a { 
+    color: inherit; 
+    text-decoration: none; }
+a:hover,
+a:focus,
+a:active {
+    color: #404bbf;
+}
+
+/*#endregion*/
+
+/*#region Headings */
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07; /* 60/56 */
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+/*#endregion */
+
+/*#region Header */
+
+
+/*#region Header: Logo */
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+/* No hover/active color on logo */
+.header-logo:hover,
+.header-logo:active {
+    color: #4d5ae5;
+}
+
+/* Accent part of the logo */
+.header-logo .logo-accent {
+    color: #2e2f42;
+}
+
+/*#endregion Header: Logo */
+
+/*#region Header: Navigation */
+.menu {
+    color: #2e2f42;
+}
+
+.menu a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:focus {
+    color: #404bbf;
+}
+/*#endregion */
+
+/*#region Header: Contacts */
+.contact-info {
+    font-style: normal;
+}
+.contact-link {
+    letter-spacing: 0.02em;
+}
+
+.contact-link:focus {
+    color: #404bbf;
+}
+/*#endregion */
+/*#endregion Header */
+
+/*#region Hero */
+
+/*#region Hero: Base */
+.hero {
+    background-color: #2e2f42;
+}
+
+.hero .hero-title {
+    color: #ffffff;
+}
+
+/*#endregion */
+
+/*#region Hero: Button */
+.hero-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4d5ae5;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
+}
+
+/*#endregion */
+
+/*#region Features */
+.features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.features-text {
+    letter-spacing: 0.02em;
+}
+
+/*#endregion Features */
+
+/*#region Team */
+.team {
+    background-color: #f4f4fd;
+}
+
+.team-item {
+    background-color: #ffffff;
+}
+
+.team-title {
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-text {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+
+/*#endregion Team */
+
+/*#region Portfolio */
+.portfolio-title {
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+
+.portfolio-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-text {
+    letter-spacing: 0.02em;
+}
+
+/*#endregion Portfolio */
+
+/*#region Footer */
+
+.footer {
+    background-color: #2e2f42;
+}
+
+/*#region Footer: Logo */
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    /* ВИПРАВЛЕНО: було 1.16667 */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    /* ВИПРАВЛЕНО: WEB - синій колір */
+}
+
+/* No hover/active color on logo */
+.footer-logo:hover,
+.footer-logo:active {
+    color: #4d5ae5;
+    /* ВИПРАВЛЕНО */
+}
+
+/* Accent part of the logo */
+.footer-accent {
+    color: #f4f4fd;
+    /* ВИПРАВЛЕНО: Studio - світлий колір для футера */
+}
+
+/*#endregion Footer: Logo */
+
+/* Footer text */
+.footer-text {
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+    /* ДОДАНО згідно з вимогою */
+}
+
+/*#endregion Footer */
