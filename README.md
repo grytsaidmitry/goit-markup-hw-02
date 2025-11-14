@@ -1,1 +1,1 @@
-**[https://grytsaidmitry.github.io/goit-markup-hw-02]**
+**(https://grytsaidmitry.github.io/goit-markup-hw-02/)**
